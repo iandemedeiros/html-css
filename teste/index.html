@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,1,0">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <script src="https://unpkg.com/akar-icons-fonts"></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <header>
+            <img src="logo.svg" alt="">
+        </header>
+        <ul>
+            <li>
+                <input type="radio" name="sidebar" id="dashboard">
+                <label for="dashboard">
+                    <i class="ai-gear"></i>
+                    <p>Dashboard</p>
+                </label>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="settings">
+                <label for="settings">
+                    <i class="ai-gear"></i>
+                    <p>Settings</p>
+                    <i class="ai-chevron-down-small"></i>
+                </label>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <button type="button">Display</button>
+                        </li>
+                        <li>
+                            <button type="button">Appearance</button>
+                        </li>
+                        <li>
+                            <button type="button">Preferences</button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="create">
+                    <label for="create">
+                        <i class="ai-folder-add"></i>
+                        <p>Create</p>
+                        <i class="ai-chevron-down-small"></i>
+                    </label>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <button type="button">Article</button>
+                        </li>
+                        <li>
+                            <button type="button">Document</button>
+                        </li>
+                        <li>
+                            <button type="button">Presentation</button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="profile">
+                    <label for="profile">
+                        <i class="ai-person"></i>
+                        <p>Profile</p>
+                        <i class="ai-chevron-down-small"></i>
+                    </label>
+                <div class="sub-menu">
+                    <ul>
+                        <li>
+                            <button type="button">Avatar</button>
+                        </li>
+                        <li>
+                            <button type="button">Theme</button>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="notifications">
+                <label for="notifications">
+                    <i class="ai-bell"></i>
+                    <p>Notifications</p>
+                </label>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="products">
+                <label for="products">
+                    <i class="ai-cart"></i>
+                    <p>Products</p>
+                </label>
+            </li>
+            <li>
+                <input type="radio" name="sidebar" id="account">
+                <label for="account">
+                    <i class="ai-look-on"></i>
+                    <p>Account</p>
+                </label>
+            </li>
+        </ul>
+    </aside>
+</body>
+</html>
