@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <div>
+                <label for="nomea">Nome:</label>
+                <input placeholder="digite seu nome" type="text" name="nome" id="nomea" required minlength="5" maxlength="15" size="20" autocomplete="username">
+            </div>
+            <div>
+                <label for="sobrenomea">Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenomea">
+            </div>
+            <div>
+                <label for="senhaa">Senha:</label>
+                <input placeholder="digite sua senha" type="password" name="senha" id="senhaa" required minlength="8" maxlength="20" size="20" autocomplete="current-password">
+            </div>
+            <div>
+                <label for="imedia">Média</label>
+                <input type="number" name="media" id="imedia" min="0" max="10" step="0.1">
+            </div>
+            <div>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="iemail" autocomplete="email">
+            </div>
+            <!-- estudar mais sobre RegEx-->
+            <div>
+                <label for="itelefone">Telefone:</label>
+                <input type="tel" name="telefone" id="itelefone" autocomplete="tel" pattern="">
+            </div>
+            <input type="submit" value="Enviar">
+        </fieldset>
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="Sexo" id="masc" value="M">
+            <label for="masc">Masculino</label>
+            <input type="radio" name="Sexo" id="fem" value="F">
+            <label for="fem">Feminino</label>
+        </fieldset>
+    </form>
+</body>
+</html>
