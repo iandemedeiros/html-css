@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+ /* Estilo para aparelhos deitados(landscape) */
+
+body{
+    background: #233eff url(../imagens/cev-landscape.jpg)no-repeat left bottom;
+    background-size: contain;
+}

@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+/* Estilo para aparelhos em pé (portrait) */
+
+
+body{
+    background: #233eff url(../imagens/cev-portrait.jpg) no-repeat center bottom;
+    background-size: contain;
+}
