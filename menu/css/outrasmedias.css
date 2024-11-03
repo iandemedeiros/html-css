@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+/* Versão para outros tipos de tela */
+
+
+@media screen and (min-width: 769px) {
+    #burguer {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    ul{
+        display: flex;
+    }
+    ul li {
+        margin-right: 10px;
+    }
+    main {
+        width: 60vw;
+    }
+}
+
+
